@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Socket
+//  SocketChat
 //
 //  Created by akshay on 04/01/19.
 //  Copyright © 2019 akshay. All rights reserved.

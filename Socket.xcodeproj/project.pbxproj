@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA07DD6021DFA20E00DD39DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD5F21DFA20E00DD39DB /* AppDelegate.swift */; };
-		BA07DD6221DFA20E00DD39DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD6121DFA20E00DD39DB /* ViewController.swift */; };
-		BA07DD6521DFA20E00DD39DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD6321DFA20E00DD39DB /* Main.storyboard */; };
 		BA07DD6721DFA21000DD39DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD6621DFA21000DD39DB /* Assets.xcassets */; };
 		BA07DD6A21DFA21000DD39DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD6821DFA21000DD39DB /* LaunchScreen.storyboard */; };
 		BA07DD7521DFA21000DD39DB /* SocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD7421DFA21000DD39DB /* SocketTests.swift */; };
 		BA07DD8021DFA21000DD39DB /* SocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD7F21DFA21000DD39DB /* SocketUITests.swift */; };
+		BA07DD9321DFA31D00DD39DB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD8E21DFA31C00DD39DB /* ChatViewController.swift */; };
+		BA07DD9421DFA31D00DD39DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD8F21DFA31C00DD39DB /* ViewController.swift */; };
+		BA07DD9621DFA31D00DD39DB /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD9121DFA31C00DD39DB /* UsersViewController.swift */; };
+		BA07DD9721DFA31D00DD39DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD9221DFA31D00DD39DB /* AppDelegate.swift */; };
+		BA07DD9A21DFA34E00DD39DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD9821DFA34D00DD39DB /* Main.storyboard */; };
+		BA07DDA121DFA3BD00DD39DB /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD9C21DFA3BD00DD39DB /* UserCell.xib */; };
+		BA07DDA221DFA3BD00DD39DB /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD9D21DFA3BD00DD39DB /* UserCell.swift */; };
+		BA07DDA321DFA3BD00DD39DB /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD9E21DFA3BD00DD39DB /* BaseCell.swift */; };
+		BA07DDA421DFA3BD00DD39DB /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD9F21DFA3BD00DD39DB /* ChatCell.swift */; };
+		BA07DDA521DFA3BD00DD39DB /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA07DDA021DFA3BD00DD39DB /* ChatCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,6 @@
 
 /* Begin PBXFileReference section */
 		BA07DD5C21DFA20E00DD39DB /* Socket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socket.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA07DD5F21DFA20E00DD39DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA07DD6121DFA20E00DD39DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA07DD6421DFA20E00DD39DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA07DD6621DFA21000DD39DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA07DD6921DFA21000DD39DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA07DD6B21DFA21000DD39DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,17 @@
 		BA07DD7B21DFA21000DD39DB /* SocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA07DD7F21DFA21000DD39DB /* SocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketUITests.swift; sourceTree = "<group>"; };
 		BA07DD8121DFA21000DD39DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA07DD8D21DFA31B00DD39DB /* Socket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Socket-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA07DD8E21DFA31C00DD39DB /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		BA07DD8F21DFA31C00DD39DB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA07DD9121DFA31C00DD39DB /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		BA07DD9221DFA31D00DD39DB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA07DD9921DFA34D00DD39DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA07DD9C21DFA3BD00DD39DB /* UserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
+		BA07DD9D21DFA3BD00DD39DB /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		BA07DD9E21DFA3BD00DD39DB /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		BA07DD9F21DFA3BD00DD39DB /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		BA07DDA021DFA3BD00DD39DB /* ChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +112,16 @@
 		BA07DD5E21DFA20E00DD39DB /* Socket */ = {
 			isa = PBXGroup;
 			children = (
-				BA07DD5F21DFA20E00DD39DB /* AppDelegate.swift */,
-				BA07DD6121DFA20E00DD39DB /* ViewController.swift */,
-				BA07DD6321DFA20E00DD39DB /* Main.storyboard */,
+				BA07DD9B21DFA3BD00DD39DB /* CustomCell */,
+				BA07DD8D21DFA31B00DD39DB /* Socket-Bridging-Header.h */,
+				BA07DD6B21DFA21000DD39DB /* Info.plist */,
+				BA07DD9221DFA31D00DD39DB /* AppDelegate.swift */,
+				BA07DD8E21DFA31C00DD39DB /* ChatViewController.swift */,
+				BA07DD9121DFA31C00DD39DB /* UsersViewController.swift */,
+				BA07DD8F21DFA31C00DD39DB /* ViewController.swift */,
 				BA07DD6621DFA21000DD39DB /* Assets.xcassets */,
 				BA07DD6821DFA21000DD39DB /* LaunchScreen.storyboard */,
-				BA07DD6B21DFA21000DD39DB /* Info.plist */,
+				BA07DD9821DFA34D00DD39DB /* Main.storyboard */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -123,6 +142,18 @@
 				BA07DD8121DFA21000DD39DB /* Info.plist */,
 			);
 			path = SocketUITests;
+			sourceTree = "<group>";
+		};
+		BA07DD9B21DFA3BD00DD39DB /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				BA07DD9C21DFA3BD00DD39DB /* UserCell.xib */,
+				BA07DD9D21DFA3BD00DD39DB /* UserCell.swift */,
+				BA07DD9E21DFA3BD00DD39DB /* BaseCell.swift */,
+				BA07DD9F21DFA3BD00DD39DB /* ChatCell.swift */,
+				BA07DDA021DFA3BD00DD39DB /* ChatCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					BA07DD5B21DFA20E00DD39DB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					BA07DD6F21DFA21000DD39DB = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA07DDA121DFA3BD00DD39DB /* UserCell.xib in Resources */,
 				BA07DD6A21DFA21000DD39DB /* LaunchScreen.storyboard in Resources */,
+				BA07DDA521DFA3BD00DD39DB /* ChatCell.xib in Resources */,
 				BA07DD6721DFA21000DD39DB /* Assets.xcassets in Resources */,
-				BA07DD6521DFA20E00DD39DB /* Main.storyboard in Resources */,
+				BA07DD9A21DFA34E00DD39DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA07DD6221DFA20E00DD39DB /* ViewController.swift in Sources */,
-				BA07DD6021DFA20E00DD39DB /* AppDelegate.swift in Sources */,
+				BA07DD9721DFA31D00DD39DB /* AppDelegate.swift in Sources */,
+				BA07DD9421DFA31D00DD39DB /* ViewController.swift in Sources */,
+				BA07DD9621DFA31D00DD39DB /* UsersViewController.swift in Sources */,
+				BA07DDA221DFA3BD00DD39DB /* UserCell.swift in Sources */,
+				BA07DDA421DFA3BD00DD39DB /* ChatCell.swift in Sources */,
+				BA07DDA321DFA3BD00DD39DB /* BaseCell.swift in Sources */,
+				BA07DD9321DFA31D00DD39DB /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +332,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA07DD6321DFA20E00DD39DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA07DD6421DFA20E00DD39DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA07DD6821DFA21000DD39DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BA07DD6921DFA21000DD39DB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BA07DD9821DFA34D00DD39DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA07DD9921DFA34D00DD39DB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7X89BMDK7;
 				INFOPLIST_FILE = Socket/Info.plist;
@@ -441,6 +481,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.Socket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Socket/Socket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7X89BMDK7;
 				INFOPLIST_FILE = Socket/Info.plist;
@@ -459,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akshay.Socket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Socket/Socket-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
